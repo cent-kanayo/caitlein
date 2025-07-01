@@ -1,9 +1,9 @@
 import React from "react";
-import Img1 from "../assets/desktop/img1.png";
-import Img2 from "../assets/desktop/img2.png";
-import Img3 from "../assets/desktop/img3.png";
-import Img4 from "../assets/desktop/img4.png";
-import Img5 from "../assets/desktop/img5.png";
+import Img1 from "../assets/desktop/img1.webp";
+import Img2 from "../assets/desktop/img2.webp";
+import Img3 from "../assets/desktop/img3.webp";
+import Img4 from "../assets/desktop/img4.webp";
+import Img5 from "../assets/desktop/img5.webp";
 import { Link } from "react-router-dom";
 import { reviews } from "../data";
 import {

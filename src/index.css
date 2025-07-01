@@ -22,13 +22,14 @@ h5 {
 .banner {
   height: 660px;
   height: 402px;
-  background-image: url('./assets/desktop/mob.png');
+  background-image: url('./assets/desktop/mob.webp');
+  background-color: #222;
   background-size: cover;
   background-position: top;
 }
 @media screen and (min-width: 900px) {
   .banner {
     height: 660px;
-    background-image: url('./assets/desktop/banner.png');
+    background-image: url('./assets/desktop/banner.webp');
   }
 }
