@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+p,
+strong {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner {
+  height: 660px;
+  height: 402px;
+  background-image: url('./assets/desktop/mob.png');
+  background-size: cover;
+  background-position: top;
+}
+@media screen and (min-width: 900px) {
+  .banner {
+    height: 660px;
+    background-image: url('./assets/desktop/banner.png');
+  }
+}
